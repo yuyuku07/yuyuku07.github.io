@@ -6,11 +6,18 @@ permalink: /contact
 
 # Get in touch?
 
-<!-- modify this form HTML and place wherever you want your form -->
 <form action="https://formspree.io/f/xnqkgryd" method="POST">
-  <input type="text" id="name" name="name" placeholder="name:" autocomplete="off">
-  <input type="text" id="email" name="email" placeholder="email:" autocomplete="off">
-  <textarea rows="5" id="message" name="message" placeholder="message:" autocomplete="off"></textarea>
+
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
   <button type="submit">Send</button>
 </form>
 
